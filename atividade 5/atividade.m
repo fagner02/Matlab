@@ -27,8 +27,8 @@ imshow(img);
 
 [A,H,V,D] = haart2(img);
 
-% A função retorna o coeficiente de aproximação e os niveis de detalhe vertical e 
-% horizontal como mostram as imagens
+% A função retorna o coeficiente de aproximação e os niveis de detalhe vertical,
+% horizontal e diagonal como mostram as imagens
 figure
 subplot(2, 2, 1);
 imshow(A);
@@ -41,3 +41,7 @@ title('Horizontal');
 subplot(2, 2, 3);
 imshow(V{1});
 title('Vertical');
+
+subplot(2, 2, 4);
+imshow(D{1});
+title('Diagonal');
