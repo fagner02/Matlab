@@ -23,9 +23,10 @@ C = hadamard(4)
 
 %% 3
 img = imread('lena.png');
+img = double(img) / 255.0;
 imshow(img);
 
-[A,H,V,D] = haart2(img);
+[A,H,V,D] = haart2(img, 2);
 
 % A função retorna o coeficiente de aproximação e os niveis de detalhe vertical,
 % horizontal e diagonal como mostram as imagens
