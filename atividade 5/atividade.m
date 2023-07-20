@@ -4,6 +4,7 @@
 % possam ser uteis assim como na transformada de fourier que representa 
 % uma função no dominio da frequencia
 
+
 %% 2
 % Uma matriz de números complexos, onde a parte real representa amplitude e a parte
 % imaginária representa fase.
